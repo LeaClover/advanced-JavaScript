@@ -1,0 +1,234 @@
+﻿@media (max-width: 1024px) and (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 50vw);
+        padding-right: calc(50% - 50vw);
+    }
+
+    .header {
+        gap: 55%;
+
+        &__img1 {
+            padding-bottom: 18px;
+        }
+
+        &__img2 {
+            padding-top: 19px;
+            padding-bottom: 18px;
+        }
+    }
+
+    .dropdown__content {
+        right: -9rem;
+    }
+
+    .top {
+        gap: 39px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__main-photo {
+            max-width: 386px;
+        }
+
+        &__block-text {
+            width: 311px;
+        }
+
+        &__heading {
+            font-size: 2.75rem;
+            line-height: 53px;
+
+            &__newline {
+                font-size: 1.5rem;
+            }
+
+            &__newline-pink {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .top-content {
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 155px;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 736px;
+        width: 96%;
+
+        &__item {
+            padding-top: 58px;
+            padding-bottom: 58px;
+            background-size: 100%;
+
+            &__big {
+                padding-top: 33px;
+                padding-bottom: 33px;
+            }
+        }
+    }
+
+    .content {
+        &__text-block {
+            padding-bottom: 73px;
+        }
+
+        &__text {
+            padding-top: 3px;
+        }
+
+        &__items-box {
+            gap: 16px;
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 736px;
+            width: 96%;
+        }
+
+        &__item:hover:after {
+            top: 12rem;
+        }
+
+        &__item-hidden {
+            display: none;
+        }
+
+        &__button {
+            margin-top: 32px;
+            margin-bottom: 65px;
+        }
+
+        &__product-page {
+            padding-top: 700px;
+        }
+
+        &__menu-pages {
+            margin-top: 40px;
+            margin-bottom: 63px;
+        }
+    }
+
+    .bottom {
+        flex-direction: column;
+        gap: 0px;
+        padding-bottom: 64px;
+        margin: 0 auto;
+
+        &__content {
+            padding-top: 48px;
+            padding-bottom: 0px;
+            width: 47%;
+        }
+    }
+
+    .feedback {
+        flex-direction: column;
+        gap: 48px;
+        background-size: cover;
+        padding-bottom: 140px;
+        background-image: url(../img/bg-tablet.jpg);
+
+        &__comment {
+            padding-top: 64px;
+            padding-bottom: 0px;
+            width: 47%;
+        }
+
+        &__form {
+            gap: 27px;
+            width: 73%;
+        }
+    }
+
+    .footer {
+        gap: 305px;
+    }
+
+    .product-main {
+        &__block {
+            width: 100%;
+        }
+
+        &__text {
+            max-width: 555px;
+            width: 100%;
+        }
+
+        &__line {
+            width: 83.5%;
+        }
+    }
+
+    .cart {
+        justify-content: center;
+
+        &__left-block {
+            max-width: 734px;
+            align-items: center;
+        }
+
+        &__product {
+            max-width: 734px;
+        }
+
+        &__buttons-block {
+            max-width: 508px;
+            justify-content: space-between;
+            padding-top: 22px;
+            padding-bottom: 64px;
+        }
+
+        &__button {
+            text-transform: uppercase;
+        }
+
+        &__right-block {
+            max-width: 768px;
+            flex-direction: row;
+            align-items: center;
+            gap: 15px;
+            justify-content: space-between;
+            padding-top: 0px;
+            padding-bottom: 128px;
+        }
+
+        &__form-button {
+            text-transform: uppercase;
+        }
+
+        &__checkout-block {
+            max-width: 360px;
+            width: 100%;
+        }
+    }
+
+    .registration {
+        padding-top: 40px;
+        gap: 3%;
+
+        &__left-block {
+            max-width: 47%;
+        }
+
+        &__right-block {
+            max-width: 46%;
+        }
+
+        &__info {
+            font-size: 16px;
+        }
+    }
+
+    .filter-sort {
+        max-width: 740px;
+        justify-content: flex-start;
+        padding-top: 11px;
+        height: 80px;
+    }
+
+    .filter {
+        width: 100%;
+        max-width: 360px;
+    }
+}

@@ -1,0 +1,53 @@
+﻿@mixin flex4($wrap, $direction, $justify, $align) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flex3($wrap, $direction, $align) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    align-items: $align;
+}
+
+@mixin flex3JC($wrap, $direction, $justify) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin flex2($wrap, $direction) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+}
+
+@mixin marginAuto100($maxWidth) {
+    width: 100%;
+    margin: 0 auto;
+    max-width: $maxWidth;
+    min-height: 100%;
+}
+
+@mixin marginAuto71($maxWidth) {
+    width: 71.25%;
+    margin: 0 auto;
+    max-width: $maxWidth;
+    min-height: 100%;
+}
+
+@mixin marginAuto96($maxWidth) {
+    width: 96%;
+    margin: 0 auto;
+    max-width: $maxWidth;
+    min-height: 100%;
+}
+
+@mixin imageBG() {
+    background-size: cover;
+    background-position: center;
+}
